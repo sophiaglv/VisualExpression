@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Karantina:wght@300;400;700&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+
+body{ 
+    background-color: #F4F2E3; 
+} 
+
+.menu{ 
+    background-color:#627A72; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: #F4F2E3; 
+    height: 110px; 
+    padding: 35px; 
+    font-family: "K2D", sans-serif; 
+    font-size: 3rem; 
+} 
+
+.logo{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content:center; 
+    color: #F4F2E3;
+}
+
+.fonte{ 
+    font-family: "Karantina", system-ui; 
+    margin-left: 30px; 
+    margin-top: -25px; 
+} 
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.titulo{ 
+    font-family: "Karantina", system-ui; 
+    color: #F4F2E3; 
+    background-color: #627A72; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 15px; 
+    margin: 50px; 
+    width: 300px; 
+    border-radius: 10px; 
+    font-size: 2rem; 
+} 
+
+.contImg{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+.Imagens{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.Imagens1, .Imagens2, .Imagens3{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+h2{
+    text-align: center;
+    font-family: "K2D", sans-serif;
+}
